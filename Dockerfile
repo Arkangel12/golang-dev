@@ -11,6 +11,6 @@ WORKDIR /go/src/github.com/Arkangel12
 
 EXPOSE 8080
 
-#You must be at the path that you want to share to the container
+#You must be at the path that you want to share to the container for ""$(pwd)" works
 #docker run -it -p 8080:8080 -v "$(pwd)":/go/src/github.com/Arkangel12 --name godev golang
 
