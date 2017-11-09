@@ -12,5 +12,5 @@ WORKDIR /go/src/github.com/Arkangel12
 EXPOSE 8080
 
 #You must be at the path that you want to share to the container for ""$(pwd)" works
-#docker run -it -p 8080:8080 -v "$(pwd)":/go/src/github.com/Arkangel12 --name godev golang
-
+#docker run -it -p 8080:8080 -v "$(pwd)":/go/src/github.com/Arkangel12 --name godev <Name-of-Image-created>
+#I like interact with my container and remove later but its afeter you use -d and -rm 
